@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: playground
-        image: wil42/playground:v1  # Change this to v2 to deploy the second version
+        image: wil42/playground:v2  # Change this to v2 to deploy the second version
         ports:
         - containerPort: 8888
 ---
